@@ -1,0 +1,24 @@
+{
+    "manifest_version": 2,
+    "name": "Random Photo New Tab",
+    "version": "1.0",
+    "description": "Changes the background photo for each new tab.",
+    "permissions": ["storage", "tabs"],
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+    },
+    "browser_action": {
+      "default_icon": {
+       
+      },
+      "default_title": "Random Photo New Tab"
+    },
+    "icons": {
+    
+    },
+    "chrome_url_overrides": {
+      "newtab": "newtab.html"
+    }
+  }
+  
